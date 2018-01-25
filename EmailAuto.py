@@ -180,7 +180,11 @@ tr td:hover { background: #666; color: #FFF; }
 </body>
 """
  
-TO  = ['maximilien.pelletier@gmail.com']
+def style_generator():
+    pass
+    
+TO  = ['maximilien.pel
+       letier@gmail.com']
 FROM ='maximilien.pelletier@gmail.com'
  
 py_mail("Test mail HTML + joli tableau", email_content, TO, FROM
